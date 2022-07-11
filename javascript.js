@@ -4,5 +4,8 @@ function checkPassword(){
     if(passwordValue.value !== confirmPasswordValue.value){
        confirmPasswordValue.setCustomValidity("Password do not match");
     }
+    else{
+        confirmPasswordValue.setCustomValidity('');
+    }
 
 }
